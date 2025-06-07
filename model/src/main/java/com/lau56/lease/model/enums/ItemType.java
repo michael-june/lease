@@ -3,6 +3,9 @@ package com.lau56.lease.model.enums;
 import com.baomidou.mybatisplus.annotation.EnumValue;
 import com.fasterxml.jackson.annotation.JsonValue;
 
+/**
+ * 标签类型枚举
+ */
 
 public enum ItemType implements BaseEnum {
 
