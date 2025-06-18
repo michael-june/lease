@@ -3,6 +3,7 @@ package com.lau56.lease.web.admin.mapper;
 import com.lau56.lease.model.entity.AttrKey;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lau56.lease.web.admin.vo.attr.AttrKeyVo;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
 */
 public interface AttrKeyMapper extends BaseMapper<AttrKey> {
 
+    List<AttrKeyVo> listAttrInfo();
 }
 
 
