@@ -1,6 +1,7 @@
 package com.lau56.lease.web.admin.controller.apartment;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.AttrKey;
 import com.lau56.lease.model.entity.AttrValue;
@@ -54,12 +55,20 @@ public class AttrController {
     @Operation(summary = "根据id删除属性名称")
     @DeleteMapping("key/deleteById")
     public Result removeAttrKeyById(@RequestParam Long attrKeyId) {
+//        删除属性名称
+        attrKeyService.removeById(attrKeyId);
+//        删除属性值
+        LambdaQueryWrapper<AttrValue> qw = new LambdaQueryWrapper<>();
+        qw.eq(AttrValue::getAttrKeyId, attrKeyId);
+        attrValueService.remove(qw);
+
         return Result.ok();
     }
 
     @Operation(summary = "根据id删除属性值")
     @DeleteMapping("value/deleteById")
     public Result removeAttrValueById(@RequestParam Long id) {
+        attrValueService.removeById(id);
         return Result.ok();
     }
 
