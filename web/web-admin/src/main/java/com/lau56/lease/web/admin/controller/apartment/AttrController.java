@@ -2,6 +2,7 @@ package com.lau56.lease.web.admin.controller.apartment;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.AttrKey;
 import com.lau56.lease.model.entity.AttrValue;
@@ -15,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.smartcardio.ATR;
+import java.util.Date;
 import java.util.List;
 
 
@@ -48,7 +50,7 @@ public class AttrController {
     @Operation(summary = "查询全部属性名称和属性值列表")
     @GetMapping("list")
     public Result<List<AttrKeyVo>> listAttrInfo() {
-        List<AttrKeyVo> list=attrKeyService.listAttrInfo();
+        List<AttrKeyVo> list = attrKeyService.listAttrInfo();
         return Result.ok(list);
     }
 
@@ -58,10 +60,12 @@ public class AttrController {
 //        删除属性名称
         attrKeyService.removeById(attrKeyId);
 //        删除属性值
-        LambdaQueryWrapper<AttrValue> qw = new LambdaQueryWrapper<>();
-        qw.eq(AttrValue::getAttrKeyId, attrKeyId);
-        attrValueService.remove(qw);
-
+        attrValueService.update(
+                new UpdateWrapper<AttrValue>().lambda()
+                        .eq(AttrValue::getAttrKeyId, attrKeyId)
+                        .set(AttrValue::getUpdateTime, new Date()) // 逻辑删除
+                        .set(AttrValue::getIsDeleted, 1) // 逻辑删除
+        );
         return Result.ok();
     }
 
