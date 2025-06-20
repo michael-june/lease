@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.AttrValue;
-import com.lau56.lease.web.admin.service.AttrValueService;
 import com.lau56.lease.web.admin.mapper.AttrValueMapper;
+import com.lau56.lease.web.admin.service.AttrValueService;
 import org.springframework.stereotype.Service;
 
 /**

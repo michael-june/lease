@@ -1,10 +1,7 @@
 package com.lau56.lease.web.admin.service;
 
-import com.lau56.lease.model.entity.LeaseAgreement;
-import com.lau56.lease.web.admin.vo.agreement.AgreementQueryVo;
-import com.lau56.lease.web.admin.vo.agreement.AgreementVo;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lau56.lease.model.entity.LeaseAgreement;
 
 /**
 * @author liubo

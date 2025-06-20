@@ -1,7 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.BrowsingHistory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lau56.lease.model.entity.BrowsingHistory;
 
 /**
 * @author liubo

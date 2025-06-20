@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.DistrictInfo;
-import com.lau56.lease.web.admin.service.DistrictInfoService;
 import com.lau56.lease.web.admin.mapper.DistrictInfoMapper;
+import com.lau56.lease.web.admin.service.DistrictInfoService;
 import org.springframework.stereotype.Service;
 
 /**

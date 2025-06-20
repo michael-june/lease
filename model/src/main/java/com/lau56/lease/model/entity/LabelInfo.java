@@ -1,9 +1,9 @@
 package com.lau56.lease.model.entity;
 
-import io.swagger.v3.oas.annotations.media.Schema;
-import com.lau56.lease.model.enums.ItemType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.lau56.lease.model.enums.ItemType;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 @Schema(description = "标签信息表")

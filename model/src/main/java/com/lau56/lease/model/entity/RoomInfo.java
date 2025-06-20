@@ -1,14 +1,12 @@
 package com.lau56.lease.model.entity;
 
-import com.lau56.lease.model.enums.ReleaseStatus;
-import io.swagger.v3.oas.annotations.media.Schema;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.lau56.lease.model.enums.ReleaseStatus;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
-import java.util.List;
 
 @Schema(description = "房间信息表")
 @TableName(value = "room_info")

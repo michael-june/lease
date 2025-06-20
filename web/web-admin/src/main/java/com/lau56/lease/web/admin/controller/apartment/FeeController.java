@@ -1,7 +1,6 @@
 package com.lau56.lease.web.admin.controller.apartment;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.lau56.lease.common.result.Result;

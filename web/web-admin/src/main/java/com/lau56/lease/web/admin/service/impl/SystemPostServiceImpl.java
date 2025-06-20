@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.SystemPost;
-import com.lau56.lease.web.admin.service.SystemPostService;
 import com.lau56.lease.web.admin.mapper.SystemPostMapper;
+import com.lau56.lease.web.admin.service.SystemPostService;
 import org.springframework.stereotype.Service;
 
 /**

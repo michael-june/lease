@@ -1,8 +1,8 @@
 package com.lau56.lease.web.admin.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.lau56.lease.model.entity.AttrKey;
 import com.lau56.lease.web.admin.vo.attr.AttrKeyVo;
-import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
 

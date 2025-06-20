@@ -1,15 +1,13 @@
 package com.lau56.lease.web.admin.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.AttrKey;
 import com.lau56.lease.web.admin.mapper.AttrKeyMapper;
 import com.lau56.lease.web.admin.service.AttrKeyService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.web.admin.vo.attr.AttrKeyVo;
 import jakarta.annotation.Resource;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.w3c.dom.Attr;
 
 import java.util.List;
 

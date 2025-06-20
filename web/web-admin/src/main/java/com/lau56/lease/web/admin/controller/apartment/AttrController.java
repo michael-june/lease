@@ -1,7 +1,6 @@
 package com.lau56.lease.web.admin.controller.apartment;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.AttrKey;
@@ -15,7 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
-import javax.smartcardio.ATR;
 import java.util.Date;
 import java.util.List;
 

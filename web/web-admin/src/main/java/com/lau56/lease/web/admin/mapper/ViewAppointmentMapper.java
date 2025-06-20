@@ -1,10 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.ViewAppointment;
-import com.lau56.lease.web.admin.vo.appointment.AppointmentQueryVo;
-import com.lau56.lease.web.admin.vo.appointment.AppointmentVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lau56.lease.model.entity.ViewAppointment;
 
 /**
 * @author liubo

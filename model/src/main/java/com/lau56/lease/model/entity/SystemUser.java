@@ -1,10 +1,9 @@
 package com.lau56.lease.model.entity;
 
-import com.lau56.lease.model.enums.BaseStatus;
-import com.lau56.lease.model.enums.SystemUserType;
-import com.baomidou.mybatisplus.annotation.FieldStrategy;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.lau56.lease.model.enums.BaseStatus;
+import com.lau56.lease.model.enums.SystemUserType;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

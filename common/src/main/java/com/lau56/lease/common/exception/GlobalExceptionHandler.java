@@ -1,11 +1,8 @@
 package com.lau56.lease.common.exception;
 
-import ch.qos.logback.classic.Logger;
 import com.lau56.lease.common.result.Result;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**

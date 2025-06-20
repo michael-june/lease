@@ -1,10 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.RoomInfo;
-import com.lau56.lease.web.admin.vo.room.RoomItemVo;
-import com.lau56.lease.web.admin.vo.room.RoomQueryVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lau56.lease.model.entity.RoomInfo;
 
 /**
 * @author liubo

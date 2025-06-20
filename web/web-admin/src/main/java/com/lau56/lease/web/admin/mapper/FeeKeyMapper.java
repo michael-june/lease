@@ -1,8 +1,8 @@
 package com.lau56.lease.web.admin.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lau56.lease.model.entity.FeeKey;
 import com.lau56.lease.web.admin.vo.fee.FeeKeyVo;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 import java.util.List;
 

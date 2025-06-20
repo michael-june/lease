@@ -1,14 +1,10 @@
 package com.lau56.lease.model.entity;
 
-import com.lau56.lease.model.enums.BaseStatus;
-import io.swagger.v3.oas.annotations.media.Schema;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
+import com.lau56.lease.model.enums.BaseStatus;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Schema(description = "用户信息表")
 @TableName(value = "user_info")

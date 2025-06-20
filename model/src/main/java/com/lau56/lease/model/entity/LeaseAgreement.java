@@ -1,11 +1,11 @@
 package com.lau56.lease.model.entity;
 
-import io.swagger.v3.oas.annotations.media.Schema;
-import com.lau56.lease.model.enums.LeaseSourceType;
-import com.lau56.lease.model.enums.LeaseStatus;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.lau56.lease.model.enums.LeaseSourceType;
+import com.lau56.lease.model.enums.LeaseStatus;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 import java.math.BigDecimal;

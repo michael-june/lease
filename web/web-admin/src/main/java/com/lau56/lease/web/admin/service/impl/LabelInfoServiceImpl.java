@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.LabelInfo;
-import com.lau56.lease.web.admin.service.LabelInfoService;
 import com.lau56.lease.web.admin.mapper.LabelInfoMapper;
+import com.lau56.lease.web.admin.service.LabelInfoService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.RoomPaymentType;
-import com.lau56.lease.web.admin.service.RoomPaymentTypeService;
 import com.lau56.lease.web.admin.mapper.RoomPaymentTypeMapper;
+import com.lau56.lease.web.admin.service.RoomPaymentTypeService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,11 +1,11 @@
 package com.lau56.lease.web.admin.controller.user;
 
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.UserInfo;
 import com.lau56.lease.model.enums.BaseStatus;
 import com.lau56.lease.web.admin.vo.user.UserInfoQueryVo;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

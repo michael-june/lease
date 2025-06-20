@@ -1,11 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.GraphInfo;
-import com.lau56.lease.model.enums.ItemType;
-import com.lau56.lease.web.admin.vo.graph.GraphVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
-import java.util.List;
+import com.lau56.lease.model.entity.GraphInfo;
 
 /**
 * @author liubo

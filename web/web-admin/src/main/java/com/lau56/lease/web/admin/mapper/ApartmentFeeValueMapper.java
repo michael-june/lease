@@ -1,8 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.ApartmentFeeValue;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
+import com.lau56.lease.model.entity.ApartmentFeeValue;
 
 /**
 * @author liubo

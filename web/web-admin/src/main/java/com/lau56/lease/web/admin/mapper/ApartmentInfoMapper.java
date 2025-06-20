@@ -1,12 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.ApartmentInfo;
-import com.lau56.lease.model.enums.LeaseStatus;
-import com.lau56.lease.web.admin.vo.apartment.ApartmentItemVo;
-import com.lau56.lease.web.admin.vo.apartment.ApartmentQueryVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.lau56.lease.model.entity.ApartmentInfo;
 
 /**
 * @author liubo

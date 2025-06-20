@@ -2,8 +2,8 @@ package com.lau56.lease.web.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lau56.lease.model.entity.BrowsingHistory;
-import com.lau56.lease.web.admin.service.BrowsingHistoryService;
 import com.lau56.lease.web.admin.mapper.BrowsingHistoryMapper;
+import com.lau56.lease.web.admin.service.BrowsingHistoryService;
 import org.springframework.stereotype.Service;
 
 /**

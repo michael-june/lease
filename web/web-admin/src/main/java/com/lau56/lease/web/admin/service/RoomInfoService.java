@@ -1,12 +1,7 @@
 package com.lau56.lease.web.admin.service;
 
-import com.lau56.lease.model.entity.RoomInfo;
-import com.lau56.lease.web.admin.vo.room.RoomDetailVo;
-import com.lau56.lease.web.admin.vo.room.RoomItemVo;
-import com.lau56.lease.web.admin.vo.room.RoomQueryVo;
-import com.lau56.lease.web.admin.vo.room.RoomSubmitVo;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lau56.lease.model.entity.RoomInfo;
 
 /**
 * @author liubo

@@ -1,6 +1,7 @@
 package com.lau56.lease.web.admin.controller.apartment;
 
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.ApartmentInfo;
 import com.lau56.lease.model.enums.ReleaseStatus;
@@ -8,7 +9,6 @@ import com.lau56.lease.web.admin.vo.apartment.ApartmentDetailVo;
 import com.lau56.lease.web.admin.vo.apartment.ApartmentItemVo;
 import com.lau56.lease.web.admin.vo.apartment.ApartmentQueryVo;
 import com.lau56.lease.web.admin.vo.apartment.ApartmentSubmitVo;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

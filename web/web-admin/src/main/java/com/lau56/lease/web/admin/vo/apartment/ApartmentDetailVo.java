@@ -4,8 +4,8 @@ package com.lau56.lease.web.admin.vo.apartment;
 import com.lau56.lease.model.entity.ApartmentInfo;
 import com.lau56.lease.model.entity.FacilityInfo;
 import com.lau56.lease.model.entity.LabelInfo;
-import com.lau56.lease.web.admin.vo.graph.GraphVo;
 import com.lau56.lease.web.admin.vo.fee.FeeValueVo;
+import com.lau56.lease.web.admin.vo.graph.GraphVo;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

@@ -1,10 +1,7 @@
 package com.lau56.lease.web.admin.mapper;
 
-import com.lau56.lease.model.entity.AttrValue;
-import com.lau56.lease.web.admin.vo.attr.AttrValueVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
-import java.util.List;
+import com.lau56.lease.model.entity.AttrValue;
 
 /**
 * @author liubo

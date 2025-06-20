@@ -1,9 +1,9 @@
 package com.lau56.lease.web.admin.controller.system;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.SystemPost;
 import com.lau56.lease.model.enums.BaseStatus;
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

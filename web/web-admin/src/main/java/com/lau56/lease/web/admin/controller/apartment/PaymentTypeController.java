@@ -1,7 +1,6 @@
 package com.lau56.lease.web.admin.controller.apartment;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.lau56.lease.common.result.Result;
 import com.lau56.lease.model.entity.PaymentType;
 import com.lau56.lease.web.admin.service.PaymentTypeService;
