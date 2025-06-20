@@ -8,7 +8,7 @@ spring:
     password: 123456
     hikari:
       connection-test-query: SELECT 1 # 自动检测连接
-      connection-timeout: 60000 #数据库连接超时时间,默认30秒
+      connection-timeout: 30000 #数据库连接超时时间,默认30秒
       idle-timeout: 500000 #空闲连接存活最大时间，默认600000（10分钟）
       max-lifetime: 540000 #此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
       maximum-pool-size: 12 #连接池最大连接数，默认是10
@@ -23,3 +23,8 @@ logging:
   level:
     com.lau56.lease: debug # 设置日志级别为debug
     com.baomidou.mybatisplus: debug # 设置MyBatis-Plus日志级别为debug
+minio:
+  endpoint: http://192.168.64.134:9000
+  access-key: admin
+  secret-key: 12345678
+  bucket-name: lease
