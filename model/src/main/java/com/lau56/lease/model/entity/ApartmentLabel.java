@@ -8,8 +8,8 @@ import lombok.Data;
 
 @Schema(description = "公寓标签关联表")
 @TableName(value = "apartment_label")
-@Data
 @Builder
+@Data
 public class ApartmentLabel extends BaseEntity {
 
     private static final long serialVersionUID = 1L;

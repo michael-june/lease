@@ -28,3 +28,5 @@ minio:
   access-key: admin
   secret-key: 12345678
   bucket-name: lease
+springdoc:
+  default-flat-param-object: true # 使得参数对象扁平化

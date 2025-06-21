@@ -20,4 +20,9 @@ public class GlobalExceptionHandler {
          log.error("全局异常处理：", e);
          return Result.fail();
      }
+    @ExceptionHandler(LeaseException.class)
+    public Result handle(LeaseException e){
+        log.error("LeaseException异常处理：", e);
+        return Result.fail(e.getCode(),e.getMessage());
+    }
 }

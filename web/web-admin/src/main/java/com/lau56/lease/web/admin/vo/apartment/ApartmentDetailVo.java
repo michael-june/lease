@@ -8,11 +8,13 @@ import com.lau56.lease.web.admin.vo.fee.FeeValueVo;
 import com.lau56.lease.web.admin.vo.graph.GraphVo;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Schema(description = "公寓信息")
 @Data
+@NoArgsConstructor
 public class ApartmentDetailVo extends ApartmentInfo {
 
     @Schema(description = "图片列表")
